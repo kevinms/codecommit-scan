@@ -24,3 +24,8 @@ If you have `go` tools installed, you can fetch and build the utility with:
 ```sh
 go install github.com/kevinms/codecommit-scan@latest
 ```
+
+## Configure
+
+The AWS shared configuration is automatically loaded, e.g. `~/.aws/config` on
+Linux.
